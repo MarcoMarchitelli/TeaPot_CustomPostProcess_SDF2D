@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: Main Camera Profile
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 114847906105895644}
+  - {fileID: 114305993208314470}
+  - {fileID: 114162304290036752}
+--- !u!114 &114162304290036752
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360ec7c3b765a3645aa064c4d34177c7, type: 3}
+  m_Name: SDF2D_Teapot
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  InsideColor:
+    overrideState: 1
+    value: {r: 1, g: 1, b: 1, a: 0}
+  OutsideColor:
+    overrideState: 1
+    value: {r: 0.8490566, g: 0.34042364, b: 0.34042364, a: 0}
+  ColorBlendStep:
+    overrideState: 1
+    value: 0.01
+  PotSize:
+    overrideState: 1
+    value: 0.25
+  PotSmoothness:
+    overrideState: 1
+    value: 0.003
+  v0:
+    overrideState: 1
+    value: {x: 0.02, y: -0.14}
+  v1:
+    overrideState: 1
+    value: {x: -0.21, y: -0.08}
+  v2:
+    overrideState: 1
+    value: {x: -0.34, y: 0.11}
+  BeakSize:
+    overrideState: 1
+    value: 0.03
+  BeakSmoothness:
+    overrideState: 1
+    value: 0.043
+  LidPosition:
+    overrideState: 1
+    value: {x: 0, y: 0.22}
+  LidSize:
+    overrideState: 1
+    value: 0.37
+  LidSmoothness:
+    overrideState: 1
+    value: 0.036
+  HandlePosition:
+    overrideState: 1
+    value: {x: 0.3, y: 0.09}
+  HandleSize:
+    overrideState: 1
+    value: 0.4
+  HandleSmoothness:
+    overrideState: 1
+    value: 0.014
+  HandleThickness:
+    overrideState: 1
+    value: 0.008
+--- !u!114 &114305993208314470
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
+  m_Name: DepthOfField
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  focusDistance:
+    overrideState: 1
+    value: 11.9
+  aperture:
+    overrideState: 1
+    value: 5.4
+  focalLength:
+    overrideState: 1
+    value: 87
+  kernelSize:
+    overrideState: 1
+    value: 0
+--- !u!114 &114846659807595620
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ecd2ec06bfb734e8dcbe9e7e93beb6, type: 3}
+  m_Name: SDF2D
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  InsideColor:
+    overrideState: 1
+    value:
+      r: 0.8490566
+      g: 0.3903014
+      b: 0.3724635
+      a: 0
+  OutsideColor:
+    overrideState: 1
+    value:
+      r: 0.33980063
+      g: 0.835257
+      b: 0.8679245
+      a: 0
+  BlendStep:
+    overrideState: 0
+    value: 0
+  PotSize:
+    overrideState: 1
+    value: 0.25
+  PotSmoothness:
+    overrideState: 1
+    value: 0.0268
+  BeakSize:
+    overrideState: 0
+    value: 0
+  BeakPosition:
+    overrideState: 0
+    value: {x: 0, y: 0}
+  BeakSmoothness:
+    overrideState: 0
+    value: 0
+  LidSize:
+    overrideState: 1
+    value: 0.609
+  LidPosition:
+    overrideState: 1
+    value: {x: 0, y: 0.19}
+  LidSmoothness:
+    overrideState: 1
+    value: 0.0049
+  HandlePosition:
+    overrideState: 1
+    value: {x: 0.28, y: 0.07}
+  HandleSize:
+    overrideState: 0
+    value: 0
+  HandleSmoothness:
+    overrideState: 1
+    value: 0.0283
+  HandleThickness:
+    overrideState: 1
+    value: 0.0167
+--- !u!114 &114847906105895644
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b924e2dad56384a8df2a1e111bb675, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  mode:
+    overrideState: 1
+    value: 0
+  color:
+    overrideState: 1
+    value: {r: 0.019357419, g: 0.16142508, b: 0.8207547, a: 1}
+  center:
+    overrideState: 0
+    value: {x: 0.5, y: 0.5}
+  intensity:
+    overrideState: 1
+    value: 0.464
+  smoothness:
+    overrideState: 1
+    value: 0.375
+  roundness:
+    overrideState: 1
+    value: 0.848
+  rounded:
+    overrideState: 1
+    value: 0
+  mask:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
+  opacity:
+    overrideState: 0
+    value: 1
+--- !u!114 &114997351615761736
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ecd2ec06bfb734e8dcbe9e7e93beb6, type: 3}
+  m_Name: SDF_TeaPot
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  InsideColor:
+    overrideState: 1
+    value:
+      r: 1
+      g: 1
+      b: 1
+      a: 0
+  OutsideColor:
+    overrideState: 1
+    value:
+      r: 0.8396226
+      g: 0.30495724
+      b: 0.30495724
+      a: 0
+  BlendStep:
+    overrideState: 1
+    value: 0.019
+  PotSize:
+    overrideState: 1
+    value: 0.223
+  PotSmoothness:
+    overrideState: 1
+    value: 0.0144
+  BeakSize:
+    overrideState: 1
+    value: 0.37
+  BeakPosition:
+    overrideState: 1
+    value: {x: 0.15, y: 0}
+  BeakSmoothness:
+    overrideState: 1
+    value: 0.023
+  LidSize:
+    overrideState: 1
+    value: 0.44
+  LidPosition:
+    overrideState: 1
+    value: {x: 0, y: 0.21}
+  LidSmoothness:
+    overrideState: 1
+    value: 0.0341
+  HandlePosition:
+    overrideState: 1
+    value: {x: 0.26, y: 0.07}
+  HandleSize:
+    overrideState: 1
+    value: 0.428
+  HandleSmoothness:
+    overrideState: 1
+    value: 0.0198
+  HandleThickness:
+    overrideState: 1
+    value: 0.013
