@@ -14,9 +14,11 @@ public sealed class SDF2D_Teapot_Renderer : PostProcessEffectRenderer<SDF2D_Teap
         mat.SetFloat("_PotSize", settings.PotSize);
         mat.SetFloat("_PotSmoothness", settings.PotSmoothness);
 
-        mat.SetVector("_v0", settings.v0);
-        mat.SetVector("_v1", settings.v1);
-        mat.SetVector("_v2", settings.v2);
+        mat.SetVector("_v0_beak_lower", settings.LowerBeakv0);
+        mat.SetVector("_v1_beak_lower", settings.LowerBeakv1);
+        mat.SetVector("_v2_beak_lower", settings.LowerBeakv2);
+        mat.SetVector("_v1_beak_upper", settings.UpperBeakv1);
+        mat.SetVector("_v2_beak_upper", settings.UpperBeakv2);
         mat.SetFloat("_BeakSize", settings.BeakSize);
         mat.SetFloat("_BeakSmoothness", settings.BeakSmoothness);
 

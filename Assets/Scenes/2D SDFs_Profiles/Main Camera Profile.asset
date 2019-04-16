@@ -40,28 +40,34 @@ MonoBehaviour:
     value: {r: 0.8490566, g: 0.34042364, b: 0.34042364, a: 0}
   ColorBlendStep:
     overrideState: 1
-    value: 0.01
+    value: 0
   PotSize:
     overrideState: 1
-    value: 0.25
+    value: 0.214
   PotSmoothness:
     overrideState: 1
-    value: 0.003
-  v0:
+    value: 0.0074
+  LowerBeakv0:
     overrideState: 1
-    value: {x: 0.02, y: -0.14}
-  v1:
+    value: {x: -0.58, y: -0.44}
+  LowerBeakv1:
     overrideState: 1
-    value: {x: -0.21, y: -0.08}
-  v2:
+    value: {x: 0.5, y: 0.5}
+  LowerBeakv2:
     overrideState: 1
-    value: {x: -0.34, y: 0.11}
+    value: {x: 0, y: 0}
+  UpperBeakv1:
+    overrideState: 1
+    value: {x: -0.4, y: 0.11}
+  UpperBeakv2:
+    overrideState: 1
+    value: {x: -0.45, y: 0.05}
   BeakSize:
     overrideState: 1
-    value: 0.03
+    value: 0
   BeakSmoothness:
     overrideState: 1
-    value: 0.043
+    value: 0.0356
   LidPosition:
     overrideState: 1
     value: {x: 0, y: 0.22}

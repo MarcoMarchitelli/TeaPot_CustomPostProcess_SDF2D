@@ -18,9 +18,11 @@ public class SDF2D_Teapot : PostProcessEffectSettings
     public FloatParameter PotSmoothness = new FloatParameter();
 
     [Header("Beak")]
-    public Vector2Parameter v0 = new Vector2Parameter();
-    public Vector2Parameter v1 = new Vector2Parameter();
-    public Vector2Parameter v2 = new Vector2Parameter();
+    public Vector2Parameter LowerBeakv0 = new Vector2Parameter();
+    public Vector2Parameter LowerBeakv1 = new Vector2Parameter();
+    public Vector2Parameter LowerBeakv2 = new Vector2Parameter();
+    public Vector2Parameter UpperBeakv1 = new Vector2Parameter();
+    public Vector2Parameter UpperBeakv2 = new Vector2Parameter();
     [Range(0, 1)]
     public FloatParameter BeakSize = new FloatParameter();
     [Range(0, 0.1f)]
