@@ -15,8 +15,8 @@ MonoBehaviour:
   settings:
   - {fileID: 114847906105895644}
   - {fileID: 114305993208314470}
-  - {fileID: 114162304290036752}
---- !u!114 &114162304290036752
+  - {fileID: 114188587287659042}
+--- !u!114 &114188587287659042
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25,8 +25,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 360ec7c3b765a3645aa064c4d34177c7, type: 3}
-  m_Name: SDF2D_Teapot
+  m_Script: {fileID: 11500000, guid: eab118bc2162eba4b95b78e7a3001597, type: 3}
+  m_Name: SDF2D_TEST
   m_EditorClassIdentifier: 
   active: 1
   enabled:
@@ -37,58 +37,16 @@ MonoBehaviour:
     value: {r: 1, g: 1, b: 1, a: 0}
   OutsideColor:
     overrideState: 1
-    value: {r: 0.8490566, g: 0.34042364, b: 0.34042364, a: 0}
+    value: {r: 0.8679245, g: 0.2988608, b: 0.2988608, a: 0}
   ColorBlendStep:
     overrideState: 1
     value: 0
-  PotSize:
+  PointsRadius:
     overrideState: 1
-    value: 0.214
-  PotSmoothness:
+    value: 0.01
+  ArrayLenght:
     overrideState: 1
-    value: 0.0074
-  LowerBeakv0:
-    overrideState: 1
-    value: {x: -0.58, y: -0.44}
-  LowerBeakv1:
-    overrideState: 1
-    value: {x: 0.5, y: 0.5}
-  LowerBeakv2:
-    overrideState: 1
-    value: {x: 0, y: 0}
-  UpperBeakv1:
-    overrideState: 1
-    value: {x: -0.4, y: 0.11}
-  UpperBeakv2:
-    overrideState: 1
-    value: {x: -0.45, y: 0.05}
-  BeakSize:
-    overrideState: 1
-    value: 0
-  BeakSmoothness:
-    overrideState: 1
-    value: 0.0356
-  LidPosition:
-    overrideState: 1
-    value: {x: 0, y: 0.22}
-  LidSize:
-    overrideState: 1
-    value: 0.37
-  LidSmoothness:
-    overrideState: 1
-    value: 0.036
-  HandlePosition:
-    overrideState: 1
-    value: {x: 0.3, y: 0.09}
-  HandleSize:
-    overrideState: 1
-    value: 0.4
-  HandleSmoothness:
-    overrideState: 1
-    value: 0.014
-  HandleThickness:
-    overrideState: 1
-    value: 0.008
+    value: 50
 --- !u!114 &114305993208314470
 MonoBehaviour:
   m_ObjectHideFlags: 3

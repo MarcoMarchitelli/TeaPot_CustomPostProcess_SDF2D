@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit_Vector_Visual
-  m_Shader: {fileID: 4800000, guid: 14a98be49a126e44da9ab3dca3aed0cc, type: 3}
+  m_Name: Hidden_Custom_SDF2D_TEST
+  m_Shader: {fileID: 4800000, guid: 489dd5f5c3e25d944a491d8536590f0e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -24,10 +24,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _v0_X: 0.5
-    - _v0_Y: 0.5
-    - _v1_X: 0
-    - _v1_Y: 0
+    - _ArrayLenght: 15
+    - _ColorBlendStep: 0
+    - _PointsRadius: 0.027
     m_Colors:
     - _InsideColor: {r: 1, g: 1, b: 1, a: 1}
-    - _OutsideColor: {r: 0.9339623, g: 0.3127893, b: 0.3127893, a: 1}
+    - _OutsideColor: {r: 0.9811321, g: 0.43965825, b: 0.43965825, a: 1}
+    - _Point: {r: 0.1, g: 0.1, b: 0, a: 0}
